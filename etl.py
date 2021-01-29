@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 DATABASE_URL = os.environ['DATABASE_URL']
 TABLE_NAME = os.environ['TABLE_NAME']
 
-df = pd.read_csv('insurance_claims.csv')
+df = pd.read_csv('insurance_claims.csv', na_values=['?'])
 
 # create an engine that can talk to the database
 engine = create_engine(DATABASE_URL)
