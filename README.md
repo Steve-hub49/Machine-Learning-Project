@@ -1,6 +1,6 @@
 # Machine-Learning-Project
 
-This is the repository for Project 3 / Machine Learning Project (Steve Freeland).
+This is the repository for Project 3 / Machine Learning (Steve Freeland).
 
 My project involved the utilization of machine learning techniques to predict which factor(s) are more likely to predict potential fraud if present in an automobile insurance claim. 
 
