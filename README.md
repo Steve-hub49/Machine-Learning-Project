@@ -2,7 +2,7 @@
 
 This is the repository for Project 3 / Machine Learning (Steve Freeland).
 
-My project involved the utilization of machine learning techniques to predict which factor(s) are more likely to predict potential fraud if present in an automobile insurance claim. 
+My project involved the utilization of machine learning techniques to predict which factor(s) is most likely to indicate potential fraud in an automobile insurance claim. 
 
 ## Data:
 
@@ -15,7 +15,7 @@ My project involved the utilization of machine learning techniques to predict wh
 - Incorporated Python Flask to create API from the .csv data.
 - D3 and chart.js tool utilized to develop front end, thereby allowing for the query and presentation of API data.
 - Machine Learning: Machine learning is a field of study concerned with algorithms that learn from examples.
-- For my project, I utilized Random Forest and Decision Tree machine learning algorithms to predict which factor(s) is most likely to predict fraud in auto insurance claims. 
+- For my project, I utilized Random Forest and Decision Tree machine learning algorithms to determine which factor(s) is most likely to predict fraud in auto insurance claims. 
 - Deployed project via Heroku.
 
 ## High Level Findings:
