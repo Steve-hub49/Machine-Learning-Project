@@ -22,6 +22,8 @@ My project involved the utilization of machine learning techniques to predict wh
 
 - In terms of Random Forest importances, the highest-ranking factor is 'incident_severity_Major Damage'. Said another way and based on machine learning data, major damage is the most likely factor to be linked to fraud in an automobile insurance claim.
 
+- Both algorithms produced results supporting this finding (Random Forest accuracy of .794 and Decision Tree accuracy of .765). You can think of these measures as the percent of predictions that were correct.
+
 ## Users:
 
 - Please refer to config_example.bat file for understanding of required environment variables.
