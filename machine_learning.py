@@ -17,7 +17,7 @@ p3csv = pd.read_sql(TABLE_NAME, conn)
 # print(p3csv.isna().sum())
 
 y = p3csv['fraud_reported']
-print(y)
+# print(y)
 
 X = p3csv.drop(columns = ['fraud_reported'])
 X
