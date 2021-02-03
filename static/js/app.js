@@ -22,7 +22,7 @@ d3.json("/education").then(function(response){
                     'rgba(75, 192, 192, 0.2)',
                     'rgba(153, 102, 255, 0.2)',
                     'rgba(255, 159, 64, 0.2)',
-                    'rgba(102, 51, 0, 0.2)'
+                    'rgba(153, 102, 51, 0.2)'
                 ],
                 borderColor: [
                     'rgba(255, 99, 132, 1)',
@@ -31,7 +31,7 @@ d3.json("/education").then(function(response){
                     'rgba(75, 192, 192, 1)',
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)',
-                    'rgba(102, 51, 0, 1)'
+                    'rgba(153, 102, 51, 1)'
                 ],
                 borderWidth: 1
             }]
