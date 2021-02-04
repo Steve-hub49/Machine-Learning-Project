@@ -13,14 +13,14 @@ My project involved the utilization of machine learning techniques to predict wh
 
 ## Project Methodology:
 
-- Fetch data from kaggle.com (https://www.kaggle.com/buntyshah/auto-insurance-claims-data)
-- Data cleaning techniques: Dropped nulls and included/excluded select endpoints based on relevancy and type
-- Data dump in PostgreSQL, utilizing schema diagrams to create data table
-- Flask-based API generation: Utilized PostGres and Flask to read .csv file and build API (as well as front end web page with visualization)
+- Fetch data from kaggle.com (https://www.kaggle.com/buntyshah/auto-insurance-claims-data).
+- Data cleaning techniques: Dropped nulls and included/excluded select endpoints based on relevancy and type.
+- Data dump in PostgreSQL, utilizing schema diagrams to create data table.
+- Flask-based API generation: Utilized PostGres and Flask to read .csv file and build API (as well as front end web page with visualization).
 - Data Science Machine Learning models used:
      - Random Forests consist of multiple single trees each based on a random sample of the training data. This results in a wide diversity that generally results in a better model. The feature fraud_reported was dropped from the list as this is the feature being predicted. After cleaning all remaining features were included.
      - Decision Trees build classification or regression models in the form of a tree structure. It breaks down a dataset into smaller subsets while at the same time an associated decision tree is incrementally developed. The feature fraud_reported was dropped from the list as this is the feature being predicted. After cleaning all remaining features were included.
-- Host application via Heroku, modifying Project 2 approach / adding Summary Table and Tableau Public link
+- Host application via Heroku, modifying Project 2 approach / adding Summary Table and Tableau Public link.
 
 ## High Level Findings:
 
